@@ -39,7 +39,7 @@ function calculateFuel(){
       }
 
       i += 0.1; // increase step-by-step
-    }, 100); // speed (100ms = fast animation)
+    }, 30); // speed (100ms = fast animation)
     
    }else {
     result.value = "Invalid input";
