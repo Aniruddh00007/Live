@@ -4,7 +4,6 @@ import { FaGasPump, FaBurn } from "react-icons/fa";
 import { MdRocketLaunch } from "react-icons/md";
 import { LuMonitorCog } from "react-icons/lu";
 import AboutProject from "./AboutProject";
-import page404 from "../component/page404";
 import { href } from "react-router-dom";
 function Projects() {
   const Project = [
