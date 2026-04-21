@@ -2,14 +2,12 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
 import ani from "../assets/anshu.jpg"
-import { Link, Navigate, useNavigate } from "react-router-dom";
 
 
 
 import ResumeButton from "./Resume_Button";
 
 function Hero() {
-  const navigate = useNavigate();
   const logos = [
     {
       icon: <FaGithub className="text-2xl sm:text-3xl" />,
@@ -61,19 +59,19 @@ function Hero() {
 
         {/* CTA Buttons */}
         <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center md:justify-start">
-          <Link
-            to="/project"
+          <a
+            href="/project"
             className="px-5 py-3 bg-cyan-500 text-white font-semibold rounded-lg shadow-lg hover:bg-cyan-600 transition"
           >
             View Projects
-          </Link>
+          </a>
 
-          <Link
-            to="/contact"
+          <a
+            href="/contact"
             className="px-5 py-3 border border-cyan-400 text-cyan-400 font-semibold rounded-lg hover:bg-cyan-500 hover:text-white transition"
           >
             Contact Me
-          </Link>
+          </a>
 
           <ResumeButton />
         </div>

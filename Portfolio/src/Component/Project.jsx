@@ -2,7 +2,10 @@ import React from "react";
 import { GiFruitTree, GiNotebook } from "react-icons/gi";
 import { FaGasPump, FaBurn } from "react-icons/fa";
 import { MdRocketLaunch } from "react-icons/md";
+import { LuMonitorCog } from "react-icons/lu";
 import AboutProject from "./AboutProject";
+import page404 from "../component/page404";
+import { href } from "react-router-dom";
 function Projects() {
   const Project = [
     {
@@ -40,6 +43,16 @@ function Projects() {
         },
       ],
     },
+     {
+  title: "⚡ System Optimizer Desktop Application",
+  proj: [
+    {
+      name: "Smart System Optimizer",
+      icon: <LuMonitorCog className="text-blue-500" />,
+      link: "https://live-13w7.onrender.com/smart_optimizer.html",
+    },
+  ],
+},
   ];
 
   return (

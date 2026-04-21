@@ -38,8 +38,6 @@ function AboutProject() {
         "Scalable & user-friendly",
       ],
     },
-
-    
     {
       title: "📝 ToDo List Application",
       overview:
