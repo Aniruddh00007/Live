@@ -83,6 +83,44 @@ function AboutProject() {
         "Vehicle Mileage Calculator",
       ],
     },
+    {
+  title: "⚡ Smart System Optimizer",
+  overview:
+    "Smart System Optimizer is a desktop-based application designed to monitor system performance in real-time and optimize system resources. It collects system metrics like CPU usage, memory usage, disk usage, and background processes, and provides optimization suggestions to improve system efficiency. The application is built as a cross-platform desktop solution for better system management and performance tuning.",
+  keyFeatures: [
+    "System Metrics Monitoring – CPU, RAM, Disk usage tracking",
+    "Background Process Analysis – Detects heavy processes",
+    "System Optimization Suggestions – Improves performance",
+    "Real-time Data Fetching",
+    "Desktop Application Support",
+    "User-friendly Dashboard",
+  ],
+  technologies: [
+    "Frontend: React.js, Tailwind CSS",
+    "Backend: Spring Boot (REST APIs)",
+    "Database: SQLite",
+    "Desktop App: Electron.js",
+    "API Communication: RESTful APIs",
+    "Tools: Git/GitHub, Postman",
+  ],
+  workflow: [
+    "Electron app launches desktop UI",
+    "React frontend displays system metrics dashboard",
+    "Spring Boot backend fetches system data via APIs",
+    "SQLite stores system logs and performance history",
+    "Optimizer analyzes data and suggests improvements",
+  ],
+  deployment: [
+    "Desktop App: Electron Build (Windows/Linux)",
+    "Backend: Spring Boot Server (Local/Cloud)",
+  ],
+  benefits: [
+    "Improves system performance",
+    "Real-time system monitoring",
+    "Cross-platform desktop application",
+    "Efficient resource optimization",
+  ],
+},
   ];
 
   const toggleSection = (index) => {
